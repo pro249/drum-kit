@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(2, 3, 54);
+}
+#key{
+    display: grid;
+    grid-template-columns: repeat(9, 100px);
+    gap: 20px;
+    width: 1066px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.key{
+    width: 80px;
+    height: 80px;
+    margin-top: 3px;
+    background-color: yellowgreen;
+    text-align: center;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;  
+    transition: 0.1s;
+}
+kbd{
+    font-size: 60px; 
+    line-height: 55px; 
+    font-weight: bold;  
+}
+p{
+    margin-top: 0px;
+}
+.incrase-key-size{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px white;
+    border-color: yellow;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 75px;
+}
